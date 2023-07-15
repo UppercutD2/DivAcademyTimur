@@ -1,4 +1,4 @@
-package Lesson5.HomeWork_L5;
+package HomeWork.DivAcademyTimur.HomeworkLesson5;
 
 
 import java.util.Arrays;

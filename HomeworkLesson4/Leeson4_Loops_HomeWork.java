@@ -1,4 +1,4 @@
-package Lesson4.Homework;
+package HomeWork.DivAcademyTimur.HomeworkLesson4;
 
 public class Leeson4_Loops_HomeWork {
     public static void main(String[] args) {
