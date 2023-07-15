@@ -1,0 +1,19 @@
+1.Massivdəki cüt elementlərin cəmini hesablayan program yazın.
+massiv input ---> {1 ,4,14,17,20,40,9,17,45}
+
+output:78
+
+
+2.Daxil edilen massivi tərsinə çevirib yeni arraya dolduran program yazın
+
+input massiv---> {1,4,8,2,19,3}
+
+output- {3,19,2,8,4,1}
+
+
+3. daxil olunmuş Massivdəki elementləri artan sıra ilə  çap edən program yazın(sorting algoritmlərini araşdırın)
+
+input massiv --->{3,17,1,67,13,5}
+
+output: {1,3,5,13,17,67}
+
