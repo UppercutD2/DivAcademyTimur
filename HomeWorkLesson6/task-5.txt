@@ -1,0 +1,60 @@
+{Bütün massivler consoldan inputla  yaradılsın}
+
+1. Verilən 2 massivin cəmini hesablayan program yazın (daxil edilen her iki massivin size-ı eyni olmalıdır)
+input --> massiv1-{2,5,6} massiv2-{4,7,1}
+output--> cemMassivi-{6,12,7}
+
+2.Verilən iki massivin beraber olub olmamasını yoxlayan program yazın(massivler eyni uzunluqlu olamlıdır)
+1. input-> massiv1-{2,5,6} massiv2-{4,7,1}
+output--> false
+2.input-> massiv1-{2,5,6} massiv2-{2,5,6}
+output--> true
+
+3. Bir arrayin elementlərinin ədədi ortasını hesablayan program yazın
+input- massiv-> {1,3,8}
+output-> 4
+
+4.Massivdəki en çox tekrar edilen elementi tapan program yazın
+
+input-->massiv-> {2 ,5,7,5,8,3,2,6,2,4,2,1,3,2,2}
+output-> 2
+
+5. Massivdəki sade və mürəkkəb ədədləri tapan program yazın və sadə ədələri yeni bir arraye mürekkeb ededleri ise basqa bir arraye doldurun (1 ne sade nede murekkeb ededdir)
+input-massiv-{1,5,9,13,17,25,9}
+output:
+sade-{5,13,17}
+murekkeb-{9,25,9}
+
+
+6.iki eded ikiölçülü massiv yaradın və eyni indexdə olanların hasilinden ibaret yeni array yaradıb doldurun
+input-> 
+massiv1-{1,2,4        massiv-2-{2,5,6
+         3,5,7}                 1,1,2}
+
+output::{2,10,24
+         3,5,14}
+
+
+ 7.Aşağıdakı şəkilləri çap edən program yazın:(ikiÖlçülü massiv istifade ederek)
+1:
+*
+**              
+***
+****
+*****
+****** 
+2:
+     *
+    **
+   ***
+  ****
+ *****
+******
+
+
+
+
+
+
+  
+
