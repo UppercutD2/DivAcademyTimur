@@ -1,0 +1,67 @@
+(Bütün tasklardakı söz, cümlə input şəklində olsun consola özünüz daxil edin. Və string methodlarından istifadə edin)
+
+1. Daxil olunmuş cümlədəki bütün sözləri ayrı-ayrılıqda çap edən program yazın
+input-> Salam java bir programlaşdırma dilidir
+output-> Salam
+         java
+         bir 
+         programlaşdırma
+         dilidir 
+2. Daxil olunmuş iki stringin beraberliyini yoxlayan program yazın.(böyük kiçik herfler nezere alınmasın)
+input-> salam
+        saLaM
+
+output-> daxil olunmuş sözler beraberdir
+
+
+input-> java
+        avaja
+
+output-> daxil olunmuş sözlər bərabər deyil
+
+
+
+3.Daxil olunmuş cümlədəki bütün simvolların sayını tapan program yazın.(space(boşluq) nezere alınmasın)
+
+input->      Hello World!!   
+
+output-> 12
+
+4.Daxil olunmuş iki  sözü  birləşdirən java programı yazın(String methodları ile)
+
+input->String1- Hello
+       String2- World!
+output-> Hello World!
+
+
+5.Sözün palindrom olub olmadıgını tapan program yazın 
+
+input-> madam
+output-> bu söz palindromdur
+
+input-> great
+output-> bu söz palindrom DEYİLDİR
+
+
+
+6.Daxil olunmuş stringdə ən çox təkrarlanan simvolu gösteren program yazın
+
+input->Saalam Dünya
+
+output-> a
+
+input-> why  iii string is immutable?i?
+
+output-> i
+
+7.Cümlə daxil olunacaq (istənilən uzunluqda) və sizdən cümlənin ilk sözünü balaca herflere sonrakı sözü böyük hərflərə 
+ondan sonra balaca herflere..... bu ardıcıllıqla gederek yeni cümleni çap etmeyiniz lazımdır (input outputlara baxın daha aydın olacaq sual)
+
+1.input-> HTML bir programLAŞdırma dili DeyilDir
+
+output->html BİR programlaşdırma DİLİ deyildir
+
+1.input-> sALAM java  dünyasına  xoş gəlmisiniz
+
+output->salam JAVA dünyasına XOŞ gəlmisiniz
+

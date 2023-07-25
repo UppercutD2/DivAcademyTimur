@@ -1,0 +1,55 @@
+1. Simple Calculator programı yazın ilk öncə double tipində iki eded daxil olunacaq daha sonra isə emeliyyat üçün bir dəyişən yaradın
+əgər 1-dirsə toplama , 2-dirsə çıxma , 3-dürsə vurma , 4-dürsə bölmə əməliyyatını etsin və nəticəni çap etsin;
+    input: 
+       eded1=10;
+       eded2=5;
+       emeliyyat=4;
+  output:
+       2
+ 
+   input: 
+       eded1=23;
+       eded2=7;
+       emeliyyat=1;
+  output:
+       30
+
+
+    input: 
+       eded1=14;
+       eded2=2;
+       emeliyyat=2;
+  output:
+       12
+
+2. Char arrayı yaradın və arrayı tərsdən çap edin ;
+  input :  charArr= {a,4,f,D,&,Z,g}
+   output:   {g, Z ,&, D,f,4,a}
+
+
+3.Arrayın elementlərini foreach istifadə edərək çap edin
+input->{1,3,4,8,9}
+output-> 1 3 4 8 9 
+
+
+4.Arraydə bütün mənfi ededleri müsbətə çevirib daha sonra çap edən  program yazın edin:
+input-> {-1,3,-5,14,0,-7}
+output-> 1 3 5 14 0 7
+
+
+
+
+5. Arraydə itmiş ededi tapın. Arrayde ededler artan sırada düzülür meselen {1,2,3,4,5,7} burada yazılmayan ededi tapan program yazın meselen burada 6 yazılmayıb (yazılan program bütün artan sıralı array üçün nezerde tutulsun və bütün ededler 1 vahid artır , birdə arrayın ilk ədədi itmiş eded olmamalıdır  ) 
+input-> {12,13,15,16,17,18}
+output-> 14
+
+
+input-> {21,22,24,25,26,27,28,29,30,31,32,33}
+output-> 23
+
+6.Arraydə ikinci ən böyük elementi tapan program yazın
+input-> {2,45,12,78,23,44,56,187,134}
+output-> 134
+
+
+
