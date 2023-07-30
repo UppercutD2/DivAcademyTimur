@@ -1,0 +1,224 @@
+Task 8
+İntellij’də task-8 adlı yeni bir proyekt yaradırsız. Və aşağıda verilən tapşırığları sıralı şəkildə bir-bir yazırsız. Və hər etdiyiniz tapşırığın başında commentlə onun hansı tapşırığ olduğunu qeyd edin. 
+
+1.	N sətir və m sütundan ibarət iki ölçülü massiv yaradın. Bunları console’dan doldurun və çap edin. 
+Input: 
+Column: 3
+Row: 2
+1 2 3
+4 5 6
+
+Output: 
+1 2 3
+4 5 6
+
+2.	N sətir və m sütundan ibarət iki ölçülü massiv yaradın. Bunları console’dan doldurun və daha sonra hər bir sətirin cəmini ayrı-ayrılığda çap edin.
+Input: 
+Column: 3
+Row: 2
+1 2 3
+4 5 6
+
+Output: 
+6
+15
+
+3.	N sətir və n sütundan ibarət iki ölçülü kvadrat massiv yaradın. Bunları console’dan doldurun və sadəcə sağ və sol diaqonalı çap edin. 
+Input: 
+N: 3
+1 2 3
+4 5 6
+7 8 9
+
+Output: 
+Major (Left) diagonal: 1 5 9
+Minor (Right) diagonal: 3 5 7
+
+
+
+
+4.	N sətir və n sütundan ibarət iki ölçülü kvadrat massiv yaradın. Bunları console’dan doldurun və daha sonra sol diaqonalı tərsinə çevirərək çap edin (aşağıdakı qayda da). 
+Input: 
+N: 3
+1 2 3
+4 5 6
+7 8 9
+
+Output: 
+9 2 3
+4 5 6
+7 8 1
+
+****************************************************Done until here, to be continued ASAP***************************************************
+
+5.	N sətir və n sütundan ibarət iki ölçülü kvadrat massiv yaradın. Bunları console’dan doldurun və daha sonra sağ diaqonalı tərsinə çevirərək çap edin (aşağıdakı qayda da). 
+Input: 
+N: 3
+1 2 3
+4 5 6
+7 8 9
+
+Output: 
+1 2 7
+4 5 6
+3 8 9
+
+6.	Nested loop məsələləri.
+1.	Aşağıdakı ulduzlu məsələlərin hər birini çap edin. (Proqramlar ayrı-ayrılığda ola bilər. Hər birini bir yerdə etməyinizə ehtiyac yoxdu.)
+Input: 
+N: 3
+
+Output: 
+a.
+*
+**
+***
+
+b.
+***
+ **
+  *
+
+c.
+  *
+ **
+***
+
+d.
+***
+**
+*
+
+e.
+	*
+  * *
+* * *
+
+f.
+* * *
+*   *
+* * *
+
+g.
+1
+22
+333
+
+h.
+1
+23
+456
+
+
+7.	Aşağıda verilmiş sətirin içərisindəki ədədlərin kvadratları cəmini tapın.
+String str = “     9, ae 2, ae 0, ab 3, ab 2, ab 6     “;
+Output: 134
+
+8.	Daxil olunmuş sətirdə hansı simvoldan neçə dəfə istifadə olunduğunu tapan proqram yazın. Və hərf həssasiyyəti olmasın. Yəni, böyük A-da kiçik a-da eyni simvolu ifadə etsin. ( Bu biraz çətindir, amma, yazmağa cəhd edin. “Bura qədər yazdım, ama bu səhvi alıram, necə düzəldim?” – sualını eşitmək istəyirəm) 
+
+Input: Hello WorLd
+Output: 
+h – 1
+e – 1
+l – 3
+o – 2
+w – 1
+r – 1
+d – 1
+
+9.	Daxil olunmuş sətirin palindrome olub olmamasını yoxlayan proqram yazın. Hərf həssasiyyətini nəzərə almayın
+
+Polindrome – sətirin tərsi ilə düzünün bir-birinə bərabər olmağıdır.
+
+Ex 1:
+Input: Apple
+Output: false
+
+Ex 2: 
+Input: noon
+Output: true
+
+10.	 Aşağıda verilmiş sətirdə hər bir rəqəm arasında olan vergülü, vergül boşluğa dəyişin. Yəni -> “1, 2, 3, 4, 5, 6, 7, 8, 9” – çap olunsun.
+String str = “1,2,3,4,5,6,7,8,9”;
+Output: 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+11.	10-luq say sisteminde daxil edilmiş ədədi 2-lik say sisteminə çevirən proqram yazın.
+Input: 8
+Output: 1000
+
+12.		Kiçik bir axtarış sistemi quracayıq. String tipində olan massivdə bir çox adlar yer alsın. Və daha sonra console`da bizdən input istənilsin. Məsələn:
+String[] users = {“Abbas”, “Ləman”, “Xədicə”, “Ilyas”, “Nurlan”, “Nihat”, “Elçin”, “Eldar”, “Mirhəsən”, “Emin”, “Təranə”}; - belə bir massivimiz var.
+Mən console-da ‘abb’ – daxil ederkən proqram anlasın ki, mən Abbası axtarıram. Və həmin adı tamamlayaraq yanında index-i olmağla çap etsin. Yox əgər, uyğun gələn bir çox ad varsa hamısını çap etsin. Əks halda isə belə bir user yoxdur desin.
+Input: an
+
+Output: 
+Ləman – 1
+Nurlan – 4
+Təranə - 10
+
+13.		Login (giriş) proqramı tərtib edin. (Proqramın içində düzgün dəyərləri static(əvvəldən, dəyişməz şəkildə) olarağ təyin edin.) Daha sonra proqram run olduğda bizdən 2 input istənilir, username və password. 
+Əgər daxil etdiyimiz username səhvdirsə -  User doesn’t exist: username – çap olunsun, altından xətt çəkdiyim hissə, istifadəçinin daxil etdiyi username olmalıdır. Səhv yazma limiti yoxdur. 
+Şifrəni səhv yazdığda – İncorrect password\n Left attempt: x – çap olunsun(x – qalan cəhdlərin sayı). Və əgər şifrəni 3-cü dəfə yanlış daxil edərsə - Access denied – çap olunsun və proqram sonlansın. 
+Əks halda hər biri doğrudursa - “Welcome, dear ‘username’!” – deyə çap etsin. 
+
+Bəzi şərtlər: 
+1.	Username – hərf həssasiyəti olmasın. Yəni,”TaHMAzovFarid”’də yazsam bu doğru hesab olunsun.
+2.	Username – başlığa və ya sona boşluğlar əlavə edib yaza bilər. Bu doğru hesab olunsun. Yəni, “        tahmazovfarid     “ – doğru üsuldur.
+
+Ex 1: 
+Input:
+username: tahmazovfarid
+password: 12345
+
+Output:
+Welcome, dear tahmazovfarid
+
+Ex 2: 
+Input:
+username: hemidoveli
+password: 12345
+
+Output:
+User doesn’t exist: hemidoveli
+
+Ex 3: 
+Input:
+username: tahmazovfarid
+password: 123
+
+Output:
+İncorrect password!
+Left attempt: 2
+
+Ex 4: 
+Input:
+username: tahmazovfarid
+password: 123
+
+Output:
+Access denied!
+
+14.	Daxil edilmiş n ölçülü massivi sıralı şəkildə çap edin.
+Input:
+n: 5
+9 0 6 -3 1
+
+Output:
+-3 0 1 6 9
+
+15.	Daxil edilmiş sətirdə sait və samitlərin sayını çap edən proqram tərtib edin.
+İnput: java developer
+Output: 
+Vowel(sait): 6
+Consonant(samit): 7
+
+16.Daxil olunmuş iki stringin anagram olub olmadığını tapan program yazın.(anagram sözlər eyni uzunluqda və eyni herfleri saxlayan sözlərə deyilir meselen Mary və Army anagram sözlərdir.  Uzunluqları eynidir və herfler eynidir her iki söz ‘A’ ,’M’ , ‘R’, ‘Y’ simvollarından yaranmışdır 
+
+İnput : ARMY        Mary
+
+output:This two strings are anagram 
+İnput :   Madam            madan
+
+output:This two strings are NOT  anagram
+
+

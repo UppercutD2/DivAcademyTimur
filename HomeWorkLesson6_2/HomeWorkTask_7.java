@@ -112,7 +112,7 @@ public class HomeWorkTask_7 {
 
     }//String.join with delimeter
 
-    static void Task7_5(Scanner console){
+     public static void Task7_5(Scanner console){
 
 //        5.Sözün palindrom olub olmadıgını tapan program yazın
 //
