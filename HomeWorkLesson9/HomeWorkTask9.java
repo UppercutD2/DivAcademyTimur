@@ -10,7 +10,9 @@ public class HomeWorkTask9 {
 //        calculatorTest();
 //        studentManagementSystemTest();
 
-        //Hope you'll like my code with student management system. considered Uniquenes of mails. Tried to reduce the amount of code.
+        //JUST UNCOMMENT AND RUN 1 BY 1. Need to talk to you how i can run them simultaneously.Talk to Elcan about it
+
+        //Hope you'll like my code with student management system. considered Uniqueness of mails. Tried to reduce the amount of code.
         //the only thing are patterns which needs to be deeply investigated practices prior usage.
     }
 
