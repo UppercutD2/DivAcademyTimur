@@ -1,0 +1,137 @@
+Task 7
+İntellij’də task-7  adlı yeni bir proyekt yaradırsız. 
+1.	Calculator App.
+Calculator adlı bir class yaradırsız. İçərisində 6 method olacağ.
+1.	Toplama
+2.	Vurma
+3.	Bölmə
+4.	Çıxma
+5.	Faktorial
+6.	N üstlü qüvvət
+Bunları yazdığdan sonra main içərisində bu methodları istifadə edəcəyik. Və bu methodların işi sadəcə dəyəri istəyə uyğun işləyib geri qaytarmağ olacağ. Dəyəri aldığdan sonra isə çap edəcəyik. Sadəcə bu seçimlərin hamısını biz istifadəçinin istəyi ilə edəcəyik. Və proqram sonsuz dövrdə olacağ. Biz bitirməyənə qədər proqram bitməyəcək.
+Və həmçinin bölmə əməliyyatında 0-a bölünə bilməmə prosesini nəzərə alın. İstifadəçi bölmə əməliyyatının, bölünən hissəsində 0 daxil edə bilməz.
+Məsələn, proqramı run etdiyimizdə qarşımıza bu seçimlər çıxacaq.
+--------------------- Calculator app ---------------------
+[1]. Sum	[4]. Subtraction
+[2]. Multiply    	[5]. Factorial
+[3]. Divide  	[6]. A power of n // N üstlü qüvvət
+[0]. Exit program
+Choose option: 1
+----------------------------------------
+-	Sum operation
+Enter the first number: 10
+Enter the second number: 9
+10 + 9 = 19
+----------------------------------------
+[1]. Sum	[4]. Subtraction
+[2]. Multiply    	[5]. Factorial
+[3]. Divide  	[6]. A power of n // N üstlü qüvvət
+[0]. Exit program
+Choose option: 9
+----------------------------------------
+	Option is invalid!
+----------------------------------------
+[1]. Sum	[4]. Subtraction
+[2]. Multiply    	[5]. Factorial
+[3]. Divide  	[6]. A power of n // N üstlü qüvvət
+[0]. Exit program
+Choose option: 0
+----------------------------------------
+Good bye!
+----------------------------------------
+// Və proqram burda sonlanır.
+
+2.	Bir Flashlight(Fanar) obyekti yaradacayığ. Və bu fanarın bir xüsusiyyəti(field) olacağ, bu field özündə işığın yanılı olub olmadığını saxlayacağ və biz də bu xüsusiyyət sayəsində bunu öyrənə biləcəyik. Və 1 davranışı(method) olacağ, bu fanarı yandır və söndür. Bunun üçün bir class yaradırsız – Flashlight. Daha sonra içərisinə bir field əlavə edirsiz – light (boolean tipdə olmalıdır.). Bundan sonra isə methodu təyin edirsiz. Həmin method işığı yandırıb söndürmək üçün istifadə olunacağ.
+Proqram run olduğda işığın hal-hazırda sönülü olduğu qarşımıza çıxır. Və yandırmağ üçünsə sadəcə enter vurmağımız kifayət edəcək. Hər enter-ə vurduğ da, işığın vəziyyəti dəyişilməlidir.
+Məsələn,
+------------------ Flashlight ------------------
+The light is currently off.
+The light is currently on.
+The light is currently off.
+
+
+
+
+
+            3.        STUDENT REGİSTER PROGRAM
+ Student classı yaradın studentin ad,  soyad , doğulduğu il (yalnızca doğuldugu il kifayətdir  və int tipində olsun ), sinif , e-mail fieldları olsun. Program run olan zaman bizdən 2 seçim istəsin 
+1--> Qeydiyyatdan keç 
+2-->Bütün Şagirdləri gör
+3--> Çıxış 
+
+eger istifadəçi 1 yazarsa o zaman :
+Zəhmət olmasa ad daxil edin: ---> Çap olunsun və istifadəçi adını daxil etsin 
+daha sonra hər bir məlumatı bu şəkildə doldursun soyad, doguldugu il , və s.
+
+
+daha sonra 2 seçilerse sistemdəki bütün şagirdlərin ad + soyad+oxudugu sinif  + yaşı  çap edilsin
+
+3 seçilse sistemden çıxsın ve program dayansın .
+(Qeyd : istifadəçi 3 yazmadigi halda  program dayanmasın her defe yeniden sorgu hissəsi açılsın və soruşsun
+1. Qeydiyyatdan keç
+2. Bütün şagirdləri gör
+
+3.Çıxış
+)
+--------------------- Student Register System---------------------
+[1]. Qeydiyyatdan keç
+[2]. Bütün şagirdləri gör
+
+[3]. Sistemdən çıxış
+------------------------------------------------------------------------------
+Xahiş olunur etmək istədiyiniz əməliyyatı seçin:
+ 
+Seçilən əməliyyat:1
+
+Zəhmət olmasa ad daxil edin: Elcan
+Soyad: Mahmudov
+Doğulduğu il :1990
+Sinif: 11A
+
+Yeni Şagird əlavə olundu.
+
+Xahiş olunur etmək istədiyiniz əməliyyatı seçin:
+ 
+Seçilən əməliyyat:1
+
+Zəhmət olmasa ad daxil edin: Test
+Soyad: Test
+Doğulduğu il :2000
+Sinif: 11B
+
+Yeni Şagird əlavə olundu.
+
+
+Xahiş olunur etmək istədiyiniz əməliyyatı seçin:
+ 
+Seçilən əməliyyat:2
+
+Bütün şagirdlər:
+1.Elcan Mahmudov    11A   33
+2.Test Test  11B 23 
+
+
+
+Xahiş olunur etmək istədiyiniz əməliyyatı seçin:
+ 
+Seçilən əməliyyat :   3
+
+Program sonlandı !!!!!!!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
