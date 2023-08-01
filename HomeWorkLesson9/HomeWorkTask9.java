@@ -6,32 +6,32 @@ import java.util.Scanner;
 
 public class HomeWorkTask9 {
     public static void main(String[] args) {
-//        flashlightTest();
-//        calculatorTest();
-//        studentManagementSystemTest();
+        Scanner console= new Scanner(System.in);
+//        flashlightTest(console);
+//        calculatorTest(console);
+        studentManagementSystemTest(console);
 
-        //JUST UNCOMMENT AND RUN 1 BY 1. Need to talk to you how i can run them simultaneously.Talk to Elcan about it
+
 
         //Hope you'll like my code with student management system. considered Uniqueness of mails. Tried to reduce the amount of code.
         //the only thing are patterns which needs to be deeply investigated practices prior usage.
     }
 
-    static void flashlightTest()
-    {Scanner console = new Scanner(System.in);
+    static void flashlightTest(Scanner console)
+    {
         Flashlight fonar = new Flashlight();
         fonar.selectionScreen(console);
-        console.close();
+
     }
-    static void calculatorTest()
+    static void calculatorTest(Scanner console)
     {
-            Scanner console = new Scanner(System.in);
+
             Calculator.calculatorApp(console);
-            console.close();
 
         }
 
-    static void studentManagementSystemTest(){
-        Scanner console = new Scanner(System.in);
+    static void studentManagementSystemTest(Scanner console){
+
         StudentManageSystem system = new StudentManageSystem();
         system.selectionScreen(console);
         console.close();

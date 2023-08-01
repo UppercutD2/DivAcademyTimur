@@ -74,7 +74,6 @@ public class StudentManageSystem {
         student.setName(MethodsLesson9.requiredString("Please input name : ",console));
         student.setSurname(MethodsLesson9.requiredString("Please input surname: ",console));
         ageChecker(student,console);
-        console.nextLine();
         student.setClassN(MethodsLesson9.requiredString("Please input Class ID: ",console));
         emailRegister(student,console);
         studentList.add(student);
@@ -85,8 +84,9 @@ public class StudentManageSystem {
     static void deletion(Scanner console)
     {   if(studentList.size()>0)
         {
+            print();
         int number = MethodsLesson9.requiredInt("Please input number of Student to Delete: ",console);
-        console.nextLine();
+
         if(number<1 ||number>studentList.size())
         {
             System.out.println("Invalid number of Student.Please try again");
@@ -99,7 +99,7 @@ public class StudentManageSystem {
             String mail = student.getEmail();
             deleteEmail(mail);
             studentList.remove(student);
-            System.out.printf("\nStudent \"%s\" has been remove\n",details);
+            System.out.printf("\nStudent \"%s\" -- HAS BEEN REMOVED!\n",details);
 
         }
     }
@@ -132,7 +132,11 @@ public class StudentManageSystem {
         while(active)
         {
             int birthYear = MethodsLesson9.requiredInt("Please input Birth Year: ",console);
-
+            if(birthYear>2023)
+            {
+                System.out.println("Are you joking with me?Please input correct Birth Year");
+                continue;
+            }
            int age =year-birthYear;
             if(age<18)
             {
@@ -152,7 +156,7 @@ public class StudentManageSystem {
         }
 
 
-    }//some age checker, personal addition
+    }//some age checker, personal addition//Considered wrong input format of BirthDate
     static void print()
     {
         if(studentList.size()==0)
