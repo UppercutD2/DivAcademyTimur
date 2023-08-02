@@ -1,0 +1,100 @@
+Task- 10 
+
+ Student Register System adlı yeni bir proyekt yaratsın hamı.
+ DincamicArray istifade olunsun  dersde yaratdıgımız kimi daha sonra her kes diqqet etsin en optimal variantda kod yazın ,
+  adlandırmalara diqqet edin və methodlarla işleyin her prosesi methodlara yazın!!! Her method 1 işi görsün.
+
+Program run olan zaman login menusu açılsın User classında username (String) ,  password(String) və isAdmin (boolean)  qeyd olunsun.
+ İlk basda qrogram run olan zaman bir admin useri və bir admin olmayan user yaradılsın (Static blockdan istifade ede bilersiniz).
+Student classı- ad , soyad , doguldugu il , sinifi.
+
+Login Menusu:
+
+--------------------------------Login---------------------------------
+Please insert username : (istifadeçi username daxil edir)
+Please insert password: (istifadeci passwordu daxil edir) 
+
+Qeyd: Yanlış şifrə daxil etmək məhdudiyyəti yoxdur. Login succesfull oldusa daha sonra Menu açılsın
+menuda ilk başda Welcome+ daxil olan istifadeçini adı göstərilsin.
+
+
+
+
+
+
+
+
+Menu:
+Welcome : (User.username) 
+==================Student Register System=================
+
+[1]- See all Students
+[2]-Search Student with name
+
+[3]- Register new Student (only admin)
+[4]- Delete Student (only Admin) 
+[5]-Update Student(only Admin)
+
+[6]-Back to login 
+[0] - Exit! 
+Please select an option:
+==========================================================
+Qeyd:qarşısında only admin yazdıqlarım yəniki bu emeliyyati yalnizca admin olan userler ede biler demekdir.
+
+[1]- See all students  
+istifadəçi 1  seçdikdə sistemdeki bütün şagirdlər görünsün (Studentleri static bir arrayın içinde saxlamalısınız və istənilən sayda student elave oluna biler buna göre DincamicArray-i nezere alin) 
+
+[2]- Search Student with name
+Istifadçi ad daxil edin ve sistemden o ada uygun olan şagird tapılır eger yoxdursa ‘Student does not exits ‘  cap edilsin (boyuk, kiçik hərf məhdudiyyəti yoxdur ).Istifadəçi yarımçıqda daxil ede biler adı meselen istifadəçi ‘an’ daxil etse bu zaman içerisinde ‘an’ olan Studentler çap edilsin.
+
+[3] - Register new Student (only admin)
+İstifadəçi əgər admindirsə Student yaratmaq üçün fieldlar soruşulur :
+Enter name : 
+Enter surname: 
+və s.
+Əgər login olan user admin deyilsə bu zaman “You dont have access “ çap olunsun
+
+[4] - Delete Student (only Admin)
+Istifadəçi 4 seçdiyi zaman eger admindirse sistemdəki studentlər çap olunsun (index nomreleri ile birge)
+meselen:
+[0] - Name:Elcan , Surname: Mahmudov …...digər fieldlar
+[1] - Name:Test, Surname: Test  …...digər fieldlar
+[2] - Name:test1, Surname: test1  …...digər fieldlar
+digər studentler ….....
+Please insert  student  index  that you want to delete:
+(istifadəçi silmək istədiyi Studentin indexini qeyd edir)
+
+və stdent silinən zaman ‘Student succesfully deleted “ çap olunsun
+
+Əgər login olan user admin deyilsə bu zaman “You dont have access “ çap olunsun
+
+
+[5]-Update Student(only Admin)
+
+Istifadəçi 5 seçdiyi zaman studentler siyahısı çap olunur eyni deletede oldugu kimi və istifadəçi update etmek istediyi Studenti seçir daha sonra :
+
+Enter new name:
+Enter new Surname : 
+və s...
+Student update olduqdan sonra “Student succesfully updated!” çap olunsun
+
+
+
+
+[6]-Back to login
+İstifadəçi 6 seçdikden sonra Login menusu açılsın və yeniden login olsun 
+
+
+[0] - Exit!
+İstifadəçi 0 seçdiyi halda  Good Byeee + username çap olunsun və program sonlansın 
+
+
+
+
+Son bir qeyd: Xahiş edirem ‘bu ne  taskdır eeee’  deyib mene söymeyin 🥲🥲
+
+
+
+
+
+
