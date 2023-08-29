@@ -1,0 +1,17 @@
+1.Istifadeçiden doğum gününü alıb buna uyğun yaşını hesablayan program yazın (LocalDate ve Period istifade etmekle)
+
+input: year: 2000
+       month: 12
+       day:12
+output : Age = 23
+
+
+2. Duration classından istifade etməklə iki zaman arasındakı zaman fərqini hesablayan program yazın
+
+3.Hazırki tarixi çap eden program yazın (il ay gün +saat);
+
+4. Bugünkü vaxtdan 1 il evvel ve 1 il  sonrasını hesablayan program yazın outputda 1 il sonrakı tarix ve evvelki tarix çap olunacaq 
+
+
+5.Daxil edilen 2 tarix arasındakı gün ferqini hesabılayan program yazın.
+
